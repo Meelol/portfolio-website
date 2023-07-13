@@ -7,7 +7,7 @@ import PortfolioAppItem from './PortfolioAppItem';
 function Portfolio() {
     return(
         <div className='flex flex-col md:flex-row items-center justify-center'>
-            <div className= 'animate-fade animate-once animate-delay-[2000ms] animate-ease-linear animate-normal animate-fill-backwards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <div className= 'animate-fade animate-once animate-delay-[2000ms] animate-ease-linear animate-normal animate-fill-backwards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full'>
                 {webProjects.map(project => (
                     <PortfolioWebItem
                         key={project.id}
@@ -19,7 +19,7 @@ function Portfolio() {
                 ))}
                 {appProjects.map(project => (
                     <PortfolioAppItem
-                        id={project.id}
+                        key={project.id}
                         imgURL={project.imgURL}
                         title={project.title}
                         stack={project.stack}

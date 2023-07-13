@@ -60,16 +60,19 @@ function Home() {
             0 009.002-5.998z" />
     </svg>
   );
+  //max-w-7xl w11/12 mx-auto
     return(
 
         <React.Fragment>
-            <button type ='button' onClick={handleThemeSwitch} className='fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-amber-300 text-lg rounded-md'>
+            <button type ='button' onClick={handleThemeSwitch} className='fixed p-2 z-10 right-20 top-10 bg-violet-300 dark:bg-amber-300 text-lg rounded-md'>
                 {theme === 'dark' ? sun : moon}
             </button>
-            <div className='bg-white dark:bg-slate-900 dark:text-slate-100 text-stone-900 min-h-screen font-inter'>
-                <div className='max-w-5xl w11/12 mx-auto'>
+            <div className='bg-gradient-to-r from-slate-50 to-stone-100 dark:bg-none dark:bg-slate-900 dark:text-slate-100 text-stone-900 min-h-screen font-inter'>
+                <div className='max-w-6xl w-full mx-auto'>
                     <Intro />
-                    <Portfolio />
+                    <div className="flex flex-grow">
+                      <Portfolio />
+                    </div>
                     <Contact />
                     <Footer />
                 </div>
