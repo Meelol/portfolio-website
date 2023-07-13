@@ -1,34 +1,17 @@
 import React from 'react';
-import { Animate, initTE } from "tw-elements";
-initTE({ Animate });
 
 function Intro() {
-    
+
     return(
-        <div  className='flex items-center justify-center flex-col text-center pt-20 pb-6'>
-            <h1 data-te-animation-init
-                data-te-animation-start="onLoad"
-                data-te-animation-reset="true"
-                data-te-animation-delay="3"
-                data-te-animation="[fade-in-down_3s_ease-in-out]"
-             className='text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold'>
+    <>
+        <div className='flex items-center justify-center flex-col text-center pt-20 pb-6'>
+            <h1 className='animate-fade-down animate-once animate-delay-[500ms] animate-ease-linear animate-normal animate-fill-backwards text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold'>
                 Edgar Rodriguez
             </h1>
-            <p  data-te-animation-init
-                data-te-animation-start="onLoad"
-                data-te-animation-delay="4"
-                data-te-animation-reset="true"
-                data-te-animation="[fade-in-left_3s_ease-in-out]"
-            className="text-base md:text-xl mb-3 font-medium">
+            <p className="animate-fade-right animate-once animate-delay-[1000ms] animate-ease-linear animate-normal animate-fill-backwards text-base md:text-xl mb-3 font-medium">
                     Software Engineer & Web Developer
             </p>
-            <p  data-te-animation-init
-                data-te-animation-start="onLoad"
-                data-te-animation-reset="true"
-                data-te-animation-delay="5"
-                data-te-animation="[fade-in-right_3s_ease-in-out]"
-            className='text-sm max-w-xl mb-6 font-bold'>
-
+            <p className='animate-fade-left animate-once animate-delay-[1500ms] animate-ease-linear animate-normal animate-fill-backwards text-sm max-w-xl mb-6 font-bold'>
                     Welcome to my portfolio website! 
                     I am Edgar Rodriguez, a recent computer science graduate
                     from the California State Polytechnic University of Pomona, 
@@ -37,7 +20,9 @@ function Intro() {
 
             </p>
         </div>
+    </>
     );
+
 }
 
 export default Intro;

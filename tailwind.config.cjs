@@ -2,7 +2,7 @@
 export default {
   content: ['./index.html',
             './src/**/*.{jsx,js}', 
-            './node_modules/tw-elements/dist/js/**/*.js'],
+           ],
   theme: {
     extend: {
       fontFamily:{
@@ -11,10 +11,6 @@ export default {
     },
   },
   darkMode: 'class',
-  plugins: [require("tw-elements/dist/plugin.cjs")],
-  safelist: [ 'animate-[fade-in-down_3s_ease-in-out]',
-              'animate-[fade-in-left_3s_ease-in-out]',
-              'animate-[fade-in-right_3s_ease-in-out]',
-              'animate-[fade-in_5s_ease-in-out]']
+  plugins: [require('tailwindcss-animated')],
 }
 
