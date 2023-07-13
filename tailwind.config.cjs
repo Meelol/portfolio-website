@@ -15,6 +15,6 @@ export default {
   safelist: [ 'animate-[fade-in-down_3s_ease-in-out]',
               'animate-[fade-in-left_3s_ease-in-out]',
               'animate-[fade-in-right_3s_ease-in-out]',
-              'animate-[fade-in_3s_ease-in-out]',]
+              'animate-[fade-in_5s_ease-in-out]',]
 }
 
