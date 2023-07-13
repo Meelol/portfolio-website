@@ -1,8 +1,8 @@
 import React from 'react';
 
-function PortfolioWebItem({title, imgURL, stack, link}) {
+function PortfolioWebItem({id, title, imgURL, stack, link}) {
     return(
-        <a href={link} target='_blank' rel='noopener noreferrer'
+        <a key={id} href={link} target='_blank' rel='noopener noreferrer'
          className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
                 <img src={imgURL} alt='portfolio' className='w-full h-36 md:h-48 object-cover cursor-pointer'/>
             <div className='w-full p-4'>
