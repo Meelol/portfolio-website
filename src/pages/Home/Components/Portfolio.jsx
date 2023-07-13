@@ -10,10 +10,10 @@ function Portfolio() {
     return(
         <div className='flex flex-col md:flex-row items-center justify-center'>
             <div data-te-animation-init
-                data-te-animation-start="onScroll"
+                data-te-animation-start="onHover"
                 data-te-animation-reset="true"
-                data-te-animation="[fade-in_5s_ease-in-out]"
                 data-te-animation-delay= '8'
+                data-te-animation="[fade-in_5s_ease-in-out]"
             className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {webProjects.map(project => (
                     <PortfolioWebItem
