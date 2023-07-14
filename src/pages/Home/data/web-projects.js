@@ -2,7 +2,7 @@ export default [
     {
         id: '0',
         title: 'Developer Portfolio',
-        imgURL: '/assets/WebPortfolio.png',
+        imgURL: '/HomePageAssets/WebPortfolio.png',
         stack: ['React', 'TailwindCSS', 'Vite' ],
         link: ''
     },
@@ -10,7 +10,7 @@ export default [
     {
         id: '1',
         title: 'CommAide WebApp',
-        imgURL: '/assets/CommAide.png',
+        imgURL: '/HomePageAssets/CommAide.png',
         stack: ['React', 'TailwindCSS', 'Vite' ],
         link: 'https://commaide.net/'
     },

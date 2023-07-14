@@ -2,10 +2,10 @@ import React, {useEffect, useState} from 'react';
 import {Link, Route, Routes} from "react-router-dom";
 import Home from './pages/Home/Home';
 //Portfolio Projects Pages
-import Blackjack from './pages/BlackjackProject/Blackjack';
-import BRCM from './pages/BRCMProject/BRCM';
-import Hangman from './pages/AssemblyProject/Hangman';
-import ConcentrationMobile from './pages/ConcentrationMobileProject/Concentration';
+import Blackjack from './pages/ProjectPages/BlackjackProject/Blackjack';
+import BRCM from './pages/ProjectPages/BRCMProject/BRCM';
+import Hangman from './pages/ProjectPages/AssemblyProject/Hangman';
+import ConcentrationMobile from './pages/ProjectPages/ConcentrationMobileProject/Concentration';
 
 function App() {
   return(
