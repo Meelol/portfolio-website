@@ -11,10 +11,10 @@ function BRCM() {
                     <h1 className='font-inter text-center text-8xl md:text-8xl mb-1 pt-10 md:mb-4 font-bold'>Welcome to my Java Project!</h1>
                 </div>
                 < div className="max-w-6xl w-full mx-auto p-8">
-                    <ProjectItemOne    photoUrl="/BRCMPhotos/BRCMLoginPhoto.png"
+                    <ProjectItemOne className="w-full" photoUrl="/BRCMPhotos/BRCMLoginPhoto.png"
                                 description={description1}
                     />
-                    <ProjectItemTwo photoUrl="/BRCMPhotos/BRCMLoginPhoto.png"
+                    <ProjectItemTwo className="w-full" photoUrl="/BRCMPhotos/BRCMLoginPhoto.png"
                                 description={description2}
                     />
                 </div>
