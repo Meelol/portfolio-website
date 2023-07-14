@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html {
+
+@media (min-width: 768px){
+  html {
     zoom: 1.10;
   }
+}
 @-moz-document url-prefix() {
     html {
       transform: scale(1.10);
