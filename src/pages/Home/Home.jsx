@@ -5,7 +5,7 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 function Home() {
 
-    const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState(null);
 
   useEffect(() =>{
     if(window.matchMedia('(prefers-color-scheme: dark)').matches){
