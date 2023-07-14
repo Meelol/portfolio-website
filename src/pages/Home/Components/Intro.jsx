@@ -5,7 +5,7 @@ function Intro() {
     return(
     <>
         <div className='flex items-center justify-center flex-col text-center pt-20 pb-6'>
-            <h1 className='animate-fade-down animate-once animate-delay-[500ms] animate-ease-linear animate-normal animate-fill-backwards text-8xl md:text-8xl dark:text-white mb-1 md:mb-4 font-bold'>
+            <h1 className='animate-fade-down animate-once animate-delay-[500ms] animate-ease-linear animate-normal animate-fill-backwards text-8xl md:text-6xl dark:text-white mb-1 md:mb-4 font-bold'>
                 Edgar Rodriguez
             </h1>
             <p className="animate-fade-right animate-once animate-delay-[1000ms] animate-ease-linear animate-normal animate-fill-backwards text-3xl md:text-3xl mb-3 font-thin">
