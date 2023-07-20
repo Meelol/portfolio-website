@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 function PortfolioAppItem({id,title, imgURL, stack, link}) {
     return(
-        <Link key={id} to={link} className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
+        <Link key={id} to={link} target="_blank" rel="noopener noreferrer" className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'>
                 <img src={imgURL} alt='portfolio' className='w-full h-56 md:h-56 object-cover cursor-pointer'/>
             <div className='w-full p-4'>
                 <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold dark:text-white'>{title}</h3>
