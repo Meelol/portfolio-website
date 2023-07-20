@@ -17,7 +17,7 @@ function Footer() {
                 </div>
             </div>
             <p className='text-sm mt-2 opacity-50'>
-            &copy; {new Date().getFullYear()} Edgar Rodriguez. All Rights Reserved.   
+            &copy; {new Date().getFullYear()} Omar Rodriguez. All Rights Reserved.   
             </p>
         </div>
     );
