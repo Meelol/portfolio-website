@@ -27,7 +27,7 @@ export default [
         title: 'Hangman Assembly',
         imgURL: '/HomePageAssets/AssemblyHangman.png',
         stack: ['Assembly'],
-        link: 'https://github.com/Meelol/Hangman-Assembly'
+        link: 'https://github.com/Meelol/Hangman_Assembly'
         //link: 'hangman-assembly'
     },
     {
