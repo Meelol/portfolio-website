@@ -6,11 +6,11 @@ function Footer() {
                 <div>
                     <div className='flex flex-wrap justify-center gap-2'>
                         <a className="bg-stone-200 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full" href="https://www.linkedin.com/in/edgar-rodriguez-b8a229279/" target='_blank'>
-                            <img className="w-5 h-5 fill-current" src='/assets/LI-In-Bug.png'>
+                            <img className="w-5 h-5 fill-current" src='/HomePageAssets/LinkedInIcon.png'>
                             </img>
                         </a>
                         <a className="bg-stone-200 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full" href="https://github.com/Meelol" target='_blank'>
-                            <img className="w-5 h-5 fill-current" src='/assets/github-mark.png'>
+                            <img className="w-5 h-5 fill-current" src='/HomePageAssets/github-mark.png'>
                             </img>
                         </a>
                     </div>
